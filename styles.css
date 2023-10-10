@@ -1,4 +1,8 @@
 body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
@@ -11,8 +15,33 @@ body {
 }
 
 .certificate {
-    background-color: white;
-    padding: 40px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 40px 0;
 }
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-content {
+    order: 1;
+}
+
+.text {
+    order: 2; /* Change the order to 1 if you want the logo on the right */
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px; /* Add margin to separate the title from the text */
+    font-size: 24px; /* Customize the font size for the title */
+    font-weight: bold; /* Make the title bold */
+    text-transform: uppercase; /* Uppercase the title text */
+    color: #333; /* Change the title color */
+}
+
 /* Add more styles to customize your certificate */
