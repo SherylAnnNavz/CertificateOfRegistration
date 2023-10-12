@@ -39,7 +39,31 @@ h1 {
 }
 
 .border {
-    border-top: 2px solid black; /* Add a top border to create the separation line */
+    border: 2px solid black; /* Add a top border to create the separation line */
     padding: 20px;
+    margin: 0 80px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+}
+
+.student_info {
+    font-weight: bold; /* Make the text bold */
+    font-size: 20px;
+}
+
+.student-details {
+    margin: 20px 80px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.detail {
+    margin: 10px 0;
+}
+
+.detail span {
+    font-weight: bold;
 }
 
