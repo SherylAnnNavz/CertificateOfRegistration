@@ -96,9 +96,9 @@ header {
   }
   
   .subjects {
-    margin-left: 10rem;
+    margin-left: 2rem;
     display: flex;
-    gap: 8rem;
+    gap: 3rem;
   }
 
   .details {
@@ -108,7 +108,7 @@ header {
   }
 
   .units {
-    margin-left: 4rem;
+    margin-left: 0.1rem;
     display: flex;
     gap: 2rem;
   }
@@ -121,7 +121,21 @@ header {
   }
 
   .section {
-    margin-left: 3rem;
+    margin-left: -5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .schedule {
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .prof {
+    margin-left: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
