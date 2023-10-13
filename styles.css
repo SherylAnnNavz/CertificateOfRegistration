@@ -1,69 +1,55 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 3rem;
     font-family: Arial, sans-serif;
     background-color: white;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
-.certificate {
-    background-color: white;
-    padding: 40px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
 
-.logo {
+  .logo-content img {
     width: 100px;
     height: 100px;
-}
+  }
 
-.logo-content {
-    order: 1;
-}
-
-.text {
-    order: 2; /* Change the order to 1 if you want the logo on the right */
-    text-align: center;
-}
-
-h1 {
-    text-align: center; /* Center the title */
-}
-
-.reg-number {
-    color: red; /* Make the number red */
-}
-
-.border {
-    border: 2px solid black; /* Add a top border to create the separation line */
-    padding: 20px;
-    margin: 0 80px;
-    background-color: lightblue;
+  .logo-content {
+    margin-top: 3rem;
     display: flex;
-    justify-content: center; /* Center horizontally */
+    text-align: center;
     align-items: center;
-}
+    gap: 3rem;
+  }
 
-.student_info {
-    font-weight: bold; /* Make the text bold */
-    font-size: 20px;
-}
+  .registration-num h4 span {
+    color: red;
+  }
 
-.student-details {
-    margin: 20px 80px;
-    padding: 20px;
-    border: 2px solid black;
-}
+  main {
+    border: solid black;
+    min-height: 100vh;
+  }
 
-.detail {
-    margin: 10px 0;
-}
+  section {
+    padding-bottom: 1rem;
+  }
 
-.detail span {
-    font-weight: bold;
-}
+  .general-info-header-1 {
+    background-color: #ddccff;
+    text-align: center;
+    padding: 0.3rem;
+    border-bottom: solid black;
+  }
+  
 
