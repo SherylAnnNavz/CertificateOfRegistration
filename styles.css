@@ -131,7 +131,7 @@ header {
     margin-left: 1rem;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   .prof {
@@ -139,4 +139,13 @@ header {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    text-decoration: underline;
   }
+
+  .total-unit {
+    text-decoration: overline;
+  }
+
+.total-units {
+  margin-left: 10rem;
+}
