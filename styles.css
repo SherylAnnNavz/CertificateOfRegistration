@@ -149,3 +149,125 @@ header {
 .total-units {
   margin-left: 10rem;
 }
+
+.note {
+  margin-top: 2rem
+}
+
+.main-container {
+  padding: 20px 40px;
+  display: flex;
+  box-sizing: border-box;
+}
+
+
+.left-box {
+  border: 1px solid black;
+  box-sizing: border-box;
+  flex: 1;
+  margin-right: 5rem;
+}
+
+.right-content {
+  flex: 1;
+  margin-left: 1rem;;
+}
+
+.fees {
+  background-color: #ddccff;
+  text-align: center;
+  padding: 0.3rem;
+  border-bottom: solid black;
+}
+
+.fees-content {
+  padding: 1rem;
+  display: flex;
+  gap: -10rem;
+  border-bottom: solid black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.total-a {
+  margin-left: 5rem;
+}
+
+.total-b {
+  text-decoration: overline;
+  margin-left: 8rem;
+}
+
+.total {
+  margin-top: 0rem;
+  display: flex;
+  border-bottom: solid black;
+}
+
+.php {
+  margin-left: 1rem;
+}
+
+.payment {
+  display: flex;
+  border-bottom: solid black;
+}
+
+.total-c {
+  margin-left: 6.5rem;
+}
+
+.total-d {
+  margin-left: 13rem;
+}
+
+.balance {
+  display: flex;
+  border-bottom: solid black;
+}
+
+.bal {
+  margin-left: 3.5rem;
+}
+
+.total-e {
+  text-decoration: overline;
+  margin-left: 8rem;
+}
+
+.schedule {
+  background-color: #ddccff;
+  text-align: center;
+  padding: 0.3rem;
+  margin-left: 0rem;
+  border-bottom: solid black;
+}
+
+.payments {
+  padding: 20px 40px;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+
+.payment-1 {
+  border-right: 1px solid black;
+  margin-top: -1rem;
+  margin-left: -2rem;
+  border-bottom: black;
+}
+
+.payment-2 {
+  border-right: 1px solid black;
+  margin-top: -1rem;
+  
+}
+
+.payment-3 {
+  margin-top: -1rem;
+  
+}
+
