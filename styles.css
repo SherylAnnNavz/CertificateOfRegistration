@@ -144,14 +144,18 @@ header {
 
   .total-unit {
     text-decoration: overline;
+    font-weight: bold;
   }
 
 .total-units {
   margin-left: 10rem;
+  font-weight: bold;
 }
 
 .note {
-  margin-top: 2rem
+  margin-left: 1rem;
+  margin-top: 2rem;
+  font-style: italic;
 }
 
 .main-container {
@@ -165,12 +169,12 @@ header {
   border: 1px solid black;
   box-sizing: border-box;
   flex: 1;
-  margin-right: 5rem;
+  margin-right: 0rem;
 }
 
 .right-content {
   flex: 1;
-  margin-left: 1rem;;
+  margin-left: 3rem;;
 }
 
 .fees {
@@ -192,6 +196,12 @@ header {
   flex-direction: column;
 }
 
+.content2 {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
 .total-a {
   margin-left: 5rem;
 }
@@ -205,6 +215,7 @@ header {
   margin-top: 0rem;
   display: flex;
   border-bottom: solid black;
+  font-weight: bold;
 }
 
 .php {
@@ -214,6 +225,7 @@ header {
 .payment {
   display: flex;
   border-bottom: solid black;
+  font-weight: bold;
 }
 
 .total-c {
@@ -227,6 +239,7 @@ header {
 .balance {
   display: flex;
   border-bottom: solid black;
+  font-weight: bold;
 }
 
 .bal {
@@ -238,10 +251,10 @@ header {
   margin-left: 8rem;
 }
 
-.schedule {
+.schedule-p {
   background-color: #ddccff;
   text-align: center;
-  padding: 0.3rem;
+  padding: 0.2rem;
   margin-left: 0rem;
   border-bottom: solid black;
 }
@@ -258,16 +271,77 @@ header {
   margin-top: -1rem;
   margin-left: -2rem;
   border-bottom: black;
+  margin-bottom: -1rem;
 }
 
 .payment-2 {
   border-right: 1px solid black;
   margin-top: -1rem;
-  
+  margin-bottom: -1rem;
 }
 
 .payment-3 {
   margin-top: -1rem;
-  
+  margin-bottom: -1rem;
+}
+
+.rules {
+  text-align: center;
+}
+
+.rule {
+  margin-top: 2rem;
+  font-style: italic;
+  padding-left: 2rem;
+}
+
+.receipt {
+  margin-top: 5rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
+.or {
+  margin-left: 6rem;
+}
+
+.validate {
+  margin-top: 2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
+.vdate {
+  text-decoration: underline;
+  margin-left: 2rem;
+  font-weight: bold
+}
+
+.approved {
+  margin-top: 5rem;
+  padding-left: 5rem;
+}
+
+.reg {
+  text-decoration: overline;
+  margin-top: 2rem;
+  margin-left: 9rem;
+  padding-left: 5rem;
+  font-weight: bold;
+}
+
+.date-p {
+  margin-top: 5rem;
+  text-align: right;
+}
+
+.cert {
+  background-color: #ddccff;
+  text-align: center;
+  padding: 0.2rem;
+  margin-left: 0rem;
+  border-top: solid black;
+  border-bottom: solid black;
+  margin-bottom: -1rem;
 }
 
