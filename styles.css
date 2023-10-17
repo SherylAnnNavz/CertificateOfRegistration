@@ -199,6 +199,7 @@ header {
   display: flex;
   flex-direction: column;
   text-align: right;
+  margin-left: 2rem;
 }
 
 .total-a {
@@ -211,6 +212,7 @@ header {
 }
 
 .total {
+  padding-left: 2rem;
   margin-top: 0rem;
   display: flex;
   border-bottom: solid black;
@@ -222,6 +224,7 @@ header {
 }
 
 .payment {
+  padding-left: 2rem;
   display: flex;
   border-bottom: solid black;
   font-weight: bold;
@@ -236,6 +239,7 @@ header {
 }
 
 .balance {
+  padding-left: 2rem;
   display: flex;
   border-bottom: solid black;
   font-weight: bold;
@@ -259,29 +263,16 @@ header {
 }
 
 .payments {
-  padding: 20px 40px;
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
+  border-collapse: collapse;
+  width:518px;
+  border-width: thin;
+  font-weight: normal;
 }
 
-.payment-1 {
-  border-right: 1px solid black;
-  margin-top: -1rem;
-  margin-left: -2rem;
-  border-bottom: black;
-  margin-bottom: -1rem;
-}
-
-.payment-2 {
-  border-right: 1px solid black;
-  margin-top: -1rem;
-  margin-bottom: -1rem;
-}
-
-.payment-3 {
-  margin-top: -1rem;
-  margin-bottom: -1rem;
+.payments td { 
+  border: solid black;
+  border-width: thin;
+  text-align: center;
 }
 
 .rules {
